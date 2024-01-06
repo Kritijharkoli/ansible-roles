@@ -1,14 +1,14 @@
 ##### Tomcat variables
 java_version: 1.8.0
 tomcat_path: "/opt/tomcat"
-tomcat_version: "8.5.96"
+tomcat_version: "9.0.83"
 context_path: "{{tomcat_path}}/webapps/manager/META-INF/"
 tomcat_users_path: "{{tomcat_path}}/conf/"
 service_account: ec2-user
 
 ##### Nexus details
-nexusserverip: 18.188.115.40
-nexus_repo: javaapp1
+nexusserverip: 172.31.48.111
+nexus_repo: java-app
 # dotnet cicd variable
 nexus_appname: myapp1
 
